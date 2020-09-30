@@ -17,6 +17,5 @@ RUN mkdir -p ${PIP_TARGET} \
 #    && rm -rf /tmp/pip-tmp
 
 # [Optional] Uncomment this section to install additional OS packages.
-# RUN apt-get update \
-#     && export DEBIAN_FRONTEND=noninteractive \
+RUN pip install netcat
 #     && apt-get -y install --no-install-recommends <your-package-list-here>
